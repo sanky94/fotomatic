@@ -1,0 +1,231 @@
+.content{
+  width: 100%;
+  height: auto;
+  background-color: #F3F3F3;
+}
+.header{
+  border: .1px solid #d8d4d4;
+  width: 100%;
+  height: 85px;
+  font-family: "Roboto" , serif;
+  line-height: 1.6;
+  font-size: 16px;
+  color: #4A4A4A;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 100;
+}
+.name{
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  margin-left: 32px;
+}
+.navi{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+ul{
+  display: flex;
+  align-items: center;
+}
+ul li{
+  margin-right: 32px;
+}
+.icon{
+  width: 16px;
+  height: 16px;
+  margin-left: 20px;
+}
+.banner{
+  border: .1px solid white;
+  background-image: url("./images/banner-landingpage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+.banner-content{
+  background-color: #9DC20A;
+  border: 1px solid #979797;
+  border-radius: 4px;
+  margin: 170px 0 170px 200px;
+  width: 570px;
+  color: white;
+  line-height: 1.4;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.content-border{
+  margin-top: 32px;
+  margin-bottom: 40px;
+}
+.banner h1{
+  font-size: 36px;
+  font-family: "Damion",cursive;
+}
+.banner h2{
+  font-size: 50px;
+  font-family: "Rubik" , sans-serif;
+  margin-bottom: 12px;
+}
+.banner h3{
+  font-size: 20px;
+  font-family: "Roboto-Medium", sans-serif;;
+}
+.banner h4{
+  font-size: 20px;
+  font-family: "Roboto-Medium",  sans-serif;;
+  margin-bottom: 26px;
+}
+.banner strong{
+  font-weight: bolder;
+}
+.button{
+  width: 410px;
+  height: 68px;
+  background-color: #4A4A4A;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button p{
+  font-size: 20px;
+  font-family: "Roboto";
+  line-height: 1.4;
+}
+.feature{
+  width: inherit;
+  height: 830px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.feature1{
+  width: 817px;
+  height: 703px;
+  background-color: white;
+  margin-right: 40px;
+  color: #4A4A4A;
+  line-height: 1.2;
+  text-align: center;
+}
+.feature2{
+  width: 817px;
+  height: 703px;
+  background-color: white;
+  color: #4A4A4A;
+  line-height: 1.2;
+  text-align: center;
+}
+.feature1 img{
+  height: 70%;
+  width: 80%;
+  margin-top: 32px;
+  margin-left: 82px;
+  margin-right: 82px;
+  margin-bottom: 40px;
+}
+.feature1 h1{
+    font-size: 36px;
+    font-family: "Roboto" , sans-serif;
+    font-weight: bold;
+}
+.feature1 h2{
+  font-size: 16px;
+  font-family: "Roboto" , sans-serif;
+  font-weight: lighter;
+}
+.feature2 img{
+  height: 70%;
+  width: 80%;
+  margin-top: 32px;
+  margin-left: 82px;
+  margin-right: 82px;
+  margin-bottom: 40px;
+}
+.feature2 h1{
+    font-size: 36px;
+    font-family: "Roboto" , sans-serif;
+    font-weight: bold;
+}
+.feature2 h2{
+  font-size: 16px;
+  font-family: "Roboto" , sans-serif;
+  font-weight: lighter;
+}
+.filters{
+  width: inherit;
+  height: 705px;
+  background-color: #4A4A4A;
+}
+.filters-content{
+  color: white;
+  position: relative;
+  top: 64px;
+  width: 650px;
+  margin: 0 auto;
+}
+.filters-content h1{
+  font-size: 36px;
+  font-family: "Roboto" , sans-serif;
+  font-weight: bold;
+  opacity: 100%;
+  text-align: center;
+}
+.filters-content h2{
+  font-size: 16px;
+  font-family: "Roboto" , sans-serif;
+  line-height: 1.4;
+  font-weight: lighter;
+}
+.filters-images{
+  position: relative;
+  top: 144px;
+  height: 80%;
+  width: inherit;
+  display: flex;
+  justify-content: center;
+}
+.filters-images img{
+  width: 24.5%;
+  height: 77.5%;
+}
+.quote{
+  height: 196px;
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quotes{
+  color: #4A4A4A;
+  font-size: 30px;
+  font-family: "Palatino" , serif;
+  line-height: 1.1;
+  font-style: italic;
+  display: inline-block;
+  margin-right: 30px;
+}
+.footer{
+  width: inherit;
+  height: 62px;
+  background-color: #9B9B9B;
+  color: white;
+  font-size: 12px;
+  font-family: "Roboto" ,serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.place{
+  margin-right: 32px;
+}
+.copy{
+  margin-left: 32px;
+}
